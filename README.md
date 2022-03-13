@@ -1,9 +1,9 @@
 # Spring Boot Reactive and Mongo Db Demo
 
-A simple demo project that uses spring boot webflux reactive and Mongo db to provide
+A simple demo project that uses Spring Boot, Webflux reactive streams and Mongo db to provide
 with reactive stream crud operations.
 
-### The project has one endpoint to get data and save them in the db  /api/{cityId}/{pagesize}.
+### The project has one endpoint to get data and save them in the db /api/{cityId}/{pagesize}.
 
 We use the UK government api for food and safety.
 
@@ -14,10 +14,10 @@ Afterwards you can query the already saved objects in the db to get a list of th
 
 # How to run it locally
 
-Use `docker-compose up -d` in order for the docker image of the db to run
-Then you can use `./gradlew bootRun` for the application to start
+Use `docker-compose up -d` in order for the docker image of the db to run.
+Then you can use `./gradlew bootRun` for the application to start.
 
-#Requirements
+# Requirements
 
-### Java 17
-### Docker 
+Java 17 
+Docker 
