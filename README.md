@@ -19,5 +19,5 @@ Then you can use `./gradlew bootRun` for the application to start.
 
 # Requirements
 
-Java 17 
-Docker 
+- Java 17 
+- Docker 
